@@ -1,4 +1,4 @@
-name: "DXLabelAutoPR"
+name: "DXLabel"
 description: "PR라벨을 이용해 자동으로 머지 작업을 해줍니다"
 inputs:
   label-name:
