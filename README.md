@@ -1,10 +1,10 @@
-# DXLabelAutoPR
+# DXLabel
 
 ## How To Use
 `.github/workflows/${NAME_YOU_WANT}.yml` 에 아래와 같이 액션 설정 스크립트를 작성합니다.
 
 ```yml
-name: DXLabelAutoPR
+name: DXLabel
 on:
   pull_request:
     types: [labeled]
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Merge PR Auto Step
-        uses: pym7857/DXLabelAutoPR@1.0.0
+        uses: pym7857/DXLabel@1.0.0
         with:
           # Event Trigger 라벨 이름을 설정합니다. 디폴트는 "DXLabel" 입니다.
           label-name: "DXLabel"
